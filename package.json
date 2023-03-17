@@ -11,6 +11,8 @@
     "dev": "turbo run dev",
     "lint": "turbo run lint",
     "test": "turbo run test",
+    "start": "turbo run start",
+    "start:server": "turbo run start --filter=@oakmap/server",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
